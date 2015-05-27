@@ -8,12 +8,12 @@ https://registry.hub.docker.com/u/mcandre/docker-nodejs/
 
 ```
 $ make
-docker run --rm mcandre/docker-nodejs:0.7 'node --version'
-Now using node v0.7.12 (npm v1.1.30)
-v0.7.12
-docker run --rm mcandre/docker-nodejs:0.7 'npm --version'
-Now using node v0.7.12 (npm v1.1.30)
-1.1.30
+docker run --rm mcandre/docker-nodejs:0.6 'node --version'
+Now using node v0.6.21 (npm v1.1.37)
+v0.6.21-pre
+docker run --rm mcandre/docker-nodejs:0.6 'npm --version'
+Now using node v0.6.21 (npm v1.1.37)
+1.1.37
 ```
 
 # REQUIREMENTS
