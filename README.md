@@ -8,12 +8,12 @@ https://registry.hub.docker.com/u/mcandre/docker-nodejs/
 
 ```
 $ make
-docker run --rm mcandre/docker-nodejs:0.6 'node --version'
-Now using node v0.6.21 (npm v1.1.37)
-v0.6.21-pre
-docker run --rm mcandre/docker-nodejs:0.6 'npm --version'
-Now using node v0.6.21 (npm v1.1.37)
-1.1.37
+docker run --rm mcandre/docker-nodejs:0.5 'node --version'
+Now using node v0.5.10
+v0.5.10
+docker run --rm mcandre/docker-nodejs:0.5 'npm --version'
+Now using node v0.5.10
+bash: npm: command not found
 ```
 
 # REQUIREMENTS
