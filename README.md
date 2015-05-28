@@ -8,9 +8,9 @@ https://registry.hub.docker.com/u/mcandre/docker-nodejs/
 
 ```
 $ make
-docker run --rm mcandre/docker-nodejs:0.5 node --version
-v0.5.10
-docker run --rm mcandre/docker-nodejs:0.5 npm --version
+docker run --rm mcandre/docker-nodejs:0.4 node --version
+v0.4.12
+docker run --rm mcandre/docker-nodejs:0.4 npm --version
 1.3.10
 ```
 
