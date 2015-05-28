@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-nodejs:latest
+IMAGE=mcandre/docker-nodejs:0.12
 
 all: run
 
