@@ -1,5 +1,4 @@
 FROM mcandre/docker-nvm
 MAINTAINER Andrew Pennebaker <andrew.pennebaker@gmail.com>
-RUN bash -i -c 'nvm install 0.10' && \
-    echo 'nvm use 0.10' >> /root/.bashrc
-ENTRYPOINT [ "bash", "-i", "-c" ]
+ENV PATH $PATH:/root/.nvm/v0.10.38/bin
+RUN bash -lic 'nvm install 0.10'

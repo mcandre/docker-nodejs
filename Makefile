@@ -6,8 +6,8 @@ build: Dockerfile
 	docker build -t $(IMAGE) .
 
 run: clean-containers build
-	docker run --rm $(IMAGE) 'node --version'
-	docker run --rm $(IMAGE) 'npm --version'
+	docker run --rm $(IMAGE) node --version
+	docker run --rm $(IMAGE) npm --version
 
 clean-containers:
 	-docker ps -a | grep -v IMAGE | awk '{ print $$1 }' | xargs docker rm -f
