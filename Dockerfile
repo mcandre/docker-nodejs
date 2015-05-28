@@ -1,7 +1,6 @@
 FROM mcandre/docker-nvm
 MAINTAINER Andrew Pennebaker <andrew.pennebaker@gmail.com>
+ENV PATH $PATH:/root/.nvm/v0.7.12/bin
 RUN apt-get update && \
     apt-get install -y python build-essential && \
-    bash -i -c 'nvm install 0.7' && \
-    echo 'nvm use 0.7' >> /root/.bashrc
-ENTRYPOINT [ "bash", "-i", "-c" ]
+    bash -lic 'nvm install 0.7'
