@@ -9,9 +9,9 @@ https://registry.hub.docker.com/u/mcandre/docker-nodejs/
 ```
 $ make
 docker run --rm mcandre/docker-nodejs:latest node --version
-v0.12.4
+v0.12.5
 docker run --rm mcandre/docker-nodejs:latest npm --version
-2.10.1
+2.15.1
 ```
 
 # REQUIREMENTS
